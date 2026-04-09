@@ -14,6 +14,6 @@ Put your inspo board link here. Do NOT leave a bare URL. REMOVE ALL INSTRUCTIONA
 
 
 ## W2
-Write your W2 Devlog here.
+Pushed to github.
 
 Continue adding additional headers below this one for future weeks and future activities.
