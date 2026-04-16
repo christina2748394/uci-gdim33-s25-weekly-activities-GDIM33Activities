@@ -21,7 +21,7 @@ Continue adding additional headers below this one for future weeks and future ac
 
 ## W3
 ### Activity 1 
-[BreakDown]("https://github.com/user-attachments/assets/295d21c1-968a-4856-870b-17687ddc7d34")
+[BreakDown](https://github.com/user-attachments/assets/295d21c1-968a-4856-870b-17687ddc7d34)
 
 ### Activity 2
 1. Why is it advantageous to save the event name for the explore-to-dialogue state transitions as Scene variable ("clickNpcEventName")?
