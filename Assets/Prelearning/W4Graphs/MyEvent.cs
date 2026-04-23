@@ -2,15 +2,10 @@ using Unity.VisualScripting;
 using UnityEngine;
 
 //Register a string name for your Custom Scripting Event to hook it to an Event. You can save this class in a separate file and add multiple Events to it as public static strings.
-public static class EventNames
-{
-  public static string NewDialogueEvent = "NewDialogueEvent";
-  public static string MyEvent = "MyEvent";
-}
 
-[UnitTitle("On New Dialogue Event")]//The Custom Scripting Event node to receive the Event. Add "On" to the node title as an Event naming convention.
+[UnitTitle("On My Event")]//The Custom Scripting Event node to receive the Event. Add "On" to the node title as an Event naming convention.
 [UnitCategory("Events\\MyEvents")]//Set the path to find the node in the fuzzy finder as Events > My Events.
-public class NewDialogueEvent : EventUnit<DialogueNode>
+public class MyEvent : EventUnit<DialogueNode>
 {
   [DoNotSerialize]// No need to serialize ports.
   public ValueOutput result { get; private set; }// The Event output data to return when the Event is triggered.
