@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d87814806be98455aa06d85e22ad29d6, type: 3}
+  m_Name: StartDialogue
+  m_EditorClassIdentifier: 
+  Line: My first line
+  ReplyOptions:
+  - line: I love my life
+    nextNode: {fileID: 11400000, guid: 06535de12ca8d481aa82590050d76ec5, type: 2}
+  - line: Food.. I need food
+    nextNode: {fileID: 11400000, guid: 867ed34e072ae4e72903242e0ebb2c78, type: 2}
