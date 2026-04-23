@@ -46,5 +46,17 @@ Playable: Player can move around in 2D room space, there is an opening dialogue 
 
 Play Test Goal: Test if basic movement and crafting system work. Test if dialogue introduce the setting clearly and get feedback on whether its interesting. 
 
-Play Test Notes: Interactable object use [E] and need a clear indecation for it or add other keys(player often try space/mouse/enter first). Some typo in dialogue but overall understandable and interesting(wants to learn more about who is him, why MC wants to forgot, how we get the recipe, and is there other costs to forget). Crafting System icon and background need polish but code work in different situations. Player movement need polish (jump in arrow keys, lock rotation). Maybe add paralax background as a cool effect later. The second puzzle (from classic math questions, not in build yet but tested on paper with 6 people) is interesting  yet hard (2 give up after 5 minute, fastest solve 10 minute, longest 25 minute).
+Play Test Notes: Interactable object use [E] and need a clear indecation for it or add other keys(player often try space/mouse/enter first). Some typo in dialogue but overall 
+understandable and interesting(wants to learn more about who is him, why MC wants to forgot, how we get the recipe, and is there other costs to forget). Crafting System icon and background need polish but code work in different situations. Player movement need polish (jump in arrow keys, lock rotation). Maybe add paralax background as a cool effect later. The second puzzle (from classic math questions, not in build yet but tested on paper with 6 people) is interesting  yet hard (2 give up after 5 minute, fastest solve 10 minute, longest 25 minute).
+
+### Activity 2
+
+Assuming this activity is completed by a programmer, could a writer add more dialogue to this setup without writing any code? Why or why not?
+Writer cannot add more dialogue because in the Dialoguelines scriptable object the line is stored as a single string variable instead of a list of type string that can be added in the inspector.
+
+What limit is there to the number of dialogue nodes that the writer could create without writing any code?
+No limit since it is creating a scriptable object.
+
+In your own words, describe the purpose of the "Regenerate Nodes" button.
+The purpose of Regenerate Nodes button is to update the graph with changes we made in C# code.
 
