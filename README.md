@@ -60,3 +60,20 @@ No limit since it is creating a scriptable object.
 In your own words, describe the purpose of the "Regenerate Nodes" button.
 The purpose of Regenerate Nodes button is to update the graph with changes we made in C# code.
 
+
+## W5
+### Activity 1
+1. Create tilemap game object from 2D
+2. Open tile palette from editor bar →window→2D
+3. Drag in sprite asset
+4. Change sprit to fit pixel (point, 32x32, no compression)
+5. Slice the sprite in sprite editor(multiple mode)
+6. Drag image in tile palette and save to new tiles folder
+7. Create new tilemap game object to draw on top
+8. Set order in layer in the inspector window
+9. Add a tile map collider 2D to the tile map game object
+10. Or add composition collider 2D and select static mode +used by composite
+
+### Activity 2
+Added funiture tile map to game.
+Fixed animation transition.
