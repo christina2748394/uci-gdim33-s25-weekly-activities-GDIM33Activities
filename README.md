@@ -81,6 +81,10 @@ Fixed animation transition.
 
 ## W6
 ### Activity 1
+1. Content to room2 and added new math puzzle 
+2. [Itch Page 2](https://magicsheepk.itch.io/33vs2)
+3. Play test goal: test if math puzzle is fun and intuitive.
+4. Play test notes: The math puzzle pannal can be polished and given unqiue background and color to make the puzzle stand out, also freezing player movement would help add focus. Maybe add a trasition between the scene to make it more smooth and fits the narrative of dreaming.
 
 ### Activity 2
 1. The result vector3 will be smaller in each xyz value because for each it will be multiplying 2 numbers smaller than 1 so result will be smaller than either, therefore darker and less saturated.
