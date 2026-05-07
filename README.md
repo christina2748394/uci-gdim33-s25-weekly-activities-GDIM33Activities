@@ -77,3 +77,13 @@ The purpose of Regenerate Nodes button is to update the graph with changes we ma
 ### Activity 2
 Added funiture tile map to game.
 Fixed animation transition.
+
+
+## W6
+### Activity 1
+
+### Activity 2
+1. The result vector3 will be smaller in each xyz value because for each it will be multiplying 2 numbers smaller than 1 so result will be smaller than either, therefore darker and less saturated.
+2. More because multiplying 2 numbers less than 1 will result in an answer smaller than both numbers, so the result Alpha value will be smaller than either of the original value.
+3. Takes data from the UV map of Shiba mesh.
+4. Yess that is so sick math and art yayyy lets go.
