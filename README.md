@@ -91,3 +91,14 @@ Fixed animation transition.
 2. More because multiplying 2 numbers less than 1 will result in an answer smaller than both numbers, so the result Alpha value will be smaller than either of the original value.
 3. Takes data from the UV map of Shiba mesh.
 4. Yess that is so sick math and art yayyy lets go.
+
+
+## W7
+### Activity1
+1. Comes from the UV of our mesh.
+2. The vertex color only store information at vertex and blends things in the middle.
+3. Vertex color is useful seeing depth details and debuging our model.
+4. The Shadow appears on the sides where should be lighted.
+5. Because the graph normalise the normal values which flips the direction of the vectors.
+6. Because we want to make the fire transparent
+ 
